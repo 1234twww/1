@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de errores</title>
+    
+<style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: grey;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .highlight {
+            color: blue
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenido a mi página</h1>
+            <p>Esta es una página de ejemplo para el examen. Aquí se mostrarán algunos errores que debes corregir.</p>
+        </header>
+
+        <div class="image-container">
+            <img src="https://www.bing.com/images/search?view=detailV2&ccid=pvXbBsbv&id=53B19C385DC104DE036F690E23B1299199AB02BB&thid=OIP.pvXbBsbvF6jvVXOr2tFNrAHaFj&mediaurl=https%3a%2f%2f4.bp.blogspot.com%2f-OFhPYVRVIaw%2fUIqhYFDhxMI%2fAAAAAAAAAeM%2furXgdOfdpk8%2fs1600%2fbillar.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.a6f5db06c6ef17a8ef5573abdad14dac%3frik%3duwKrmZEpsSMOaQ%26pid%3dImgRaw%26r%3d0&exph=768&expw=1024&q=billar&simid=608033487319293380&FORM=IRPRST&ck=CBB3E24DB83F74CFA99999B7258BFCB7&selectedIndex=7&itb=0" alt="Descripción de la imagen">
+            <p>Esta es una imagen de ejemplo.</p>
+        </div>
+
+        <main>
+            <h2>Lista de elementos</h2>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+
+            <h2>Descripción de los elementos</h2>
+            <p>Los elementos listados arriba son ejemplos de cómo se puede estructurar una lista en HTML.</p>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 Mi Página Web</p>
+        <footer>
+    </div>
+
+   
+</body>
+</html>
